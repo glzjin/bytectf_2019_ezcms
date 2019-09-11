@@ -1,12 +1,10 @@
-# BUUSEC 2019 Sql Course 1
-
 version: "2"
 
 services:
 
   web:
     build: .
-    image: glzjin/bytectf_2019_ezcms
+    image: ctftraining/bytectf_2019_ezcms
     restart: always
     ports:
       - "127.0.0.1:8302:80"
