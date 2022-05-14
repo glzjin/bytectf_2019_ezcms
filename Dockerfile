@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:7.4-apache
 
 LABEL Author="glzjin <i@zhaoj.in>" Blog="https://www.zhaoj.in"
 
